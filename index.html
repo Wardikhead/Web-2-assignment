@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Jeward Mahinay, 3rd Year BS Computer Science student at NEMSU Lianga Campus. Skills in HTML, CSS, JavaScript, SQL.">
+  <title>Jeward Mahinay — CS Student Portfolio</title>
+  <script>document.documentElement.classList.add('js-loading');try{var palette=localStorage.getItem('portfolio-palette');if(['blue','teal','forest','plum'].indexOf(palette)!==-1)document.documentElement.setAttribute('data-palette',palette)}catch(e){}window.setTimeout(function(){document.documentElement.classList.remove('js-loading');},4000);</script>
+  <link rel="stylesheet" href="site.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" referrerpolicy="no-referrer">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>JM</text></svg>">
+</head>
+<body>
+  <div class="loading-screen" role="status" aria-live="polite" aria-label="Loading portfolio">
+    <span class="loading-mark" aria-hidden="true"><span>JM</span><i></i></span>
+    <p>Jeward Mahinay</p>
+    <span class="loading-caption">Preparing portfolio</span>
+  </div>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <div id="scroll-progress" class="scroll-progress" role="progressbar" aria-label="Reading progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span id="scroll-progress-fill"></span></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#home" aria-label="Jeward Mahinay home"><img class="logo-img" src="Profile.png" alt="" width="40" height="40" fetchpriority="high"><span class="logo-name" aria-hidden="true">Jeward Mahinay</span></a>
+      <nav class="main-nav" id="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#home" aria-current="location">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark mode"><i id="theme-icon" class="fa-solid fa-moon" aria-hidden="true"></i><span id="theme-label">Dark mode</span></button>
+        <label class="palette-control"><i class="fa-solid fa-palette" aria-hidden="true"></i><span class="visually-hidden">Choose color palette</span><select id="palette-select" aria-label="Choose color palette"><option value="blue">Navy &amp; sky</option><option value="teal">Teal &amp; charcoal</option><option value="forest">Forest &amp; mint</option><option value="plum">Plum &amp; lavender</option></select></label>
+        <button id="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav"><i class="fa-solid fa-bars" aria-hidden="true"></i><span id="nav-label">Menu</span></button>
+      </div>
+    </div>
+  </header>
+  <main id="main" tabindex="-1">
+    <section id="home" tabindex="-1" aria-labelledby="home-heading">
+  <div class="container hero-grid">
+    <div class="hero-text">
+      <p class="eyebrow">Hello, I am</p>
+      <h1 id="home-heading" tabindex="-1">Jeward Mahinay</h1>
+      <p class="subtitle">3rd Year BS Computer Science — NEMSU Lianga Campus, Surigao del Sur</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#contact"><i class="fa-solid fa-envelope" aria-hidden="true"></i>Contact Me</a>
+        <a class="btn" href="#skills"><i class="fa-solid fa-code" aria-hidden="true"></i>View Skills</a>
+      </div>
+      <ul class="socials">
+        <li><a href="https://github.com/Wardikhead" target="_blank" rel="noopener" aria-label="Jeward Mahinay on GitHub (placeholder)"><i class="fa-brands fa-github" aria-hidden="true"></i>GitHub</a></li>
+        <li><a href="https://web.facebook.com/jeward.mahinay.9" target="_blank" rel="noopener" aria-label="Jeward Mahinay on Facebook (placeholder)"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i>Facebook</a></li>
+        <li><a href="mailto:jeward.mahinay@example.com" aria-label="Email Jeward Mahinay (placeholder)"><i class="fa-solid fa-envelope" aria-hidden="true"></i>Email</a></li>
+      </ul>
+    </div>
+    <div class="hero-photo">
+      <img src="Profile.png" alt="Portrait photo of Jeward Mahinay" width="320" height="320" fetchpriority="high">
+    </div>
+  </div>
+</section>
+    <section id="about" tabindex="-1" aria-labelledby="about-heading">
+  <div class="container">
+    <span class="eyebrow">01 — profile</span>
+    <h2 id="about-heading">Professional Profile</h2>
+    <p>I am a third-year Bachelor of Science in Computer Science student at NEMSU Lianga Campus in Surigao del Sur. My studies and independent practice have given me a foundation in HTML, CSS, JavaScript, and SQL, with a particular interest in responsive and accessible web development.</p>
+    <ul class="facts">
+      <li><strong>Location:</strong> Lianga, Surigao del Sur, Philippines</li>
+      <li><strong>Degree:</strong> BS Computer Science, 3rd Year</li>
+      <li><strong>Focus areas:</strong> Web development, databases, and responsive interfaces</li>
+    </ul>
+    <div class="profile-details">
+      <div>
+        <h3>Career Objective</h3>
+        <p>Seeking a web development internship where I can apply my foundational skills in HTML, CSS, JavaScript, and SQL to build responsive, accessible websites. I am eager to contribute to a development team, learn from experienced colleagues, and continue developing as a web professional.</p>
+      </div>
+      <div>
+        <h3>Core Strengths</h3>
+        <ul>
+          <li>Responsive web design</li>
+          <li>Accessibility-minded development</li>
+          <li>Attention to detail</li>
+          <li>Foundational HTML, CSS, JavaScript, and SQL</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+    <section id="skills" tabindex="-1" aria-labelledby="skills-heading">
+<div class="container">
+  <span class="eyebrow">02 — skills</span>
+  <h2 id="skills-heading">Skills</h2>
+  <ul class="skills-grid">
+    <li><i class="fa-brands fa-html5" aria-hidden="true"></i><h3>HTML5</h3><p>Semantic structure, forms, and accessibility basics. Intermediate.</p></li>
+    <li><i class="fa-brands fa-css3-alt" aria-hidden="true"></i><h3>CSS3</h3><p>Flexbox, Grid, and responsive layouts. Intermediate.</p></li>
+    <li><i class="fa-brands fa-js" aria-hidden="true"></i><h3>JavaScript</h3><p>DOM, events, and form validation. Beginner to intermediate.</p></li>
+    <li><i class="fa-solid fa-database" aria-hidden="true"></i><h3>SQL</h3><p>SELECT, JOIN, basic CRUD, and database design. Beginner to intermediate.</p></li>
+    <li><i class="fa-solid fa-mobile-screen-button" aria-hidden="true"></i><h3>Responsive Design</h3><p>Mobile-first and fluid layouts. Intermediate.</p></li>
+    <li><i class="fa-brands fa-git-alt" aria-hidden="true"></i><h3>Git &amp; GitHub</h3><p>Commits, branches, and pull requests. Beginner.</p></li>
+  </ul>
+</div>
+</section>
+    <section id="education" tabindex="-1" aria-labelledby="education-heading">
+<div class="container">
+  <span class="eyebrow">03 — education</span>
+  <h2 id="education-heading">Education</h2>
+  <ol class="timeline">
+    <li>
+      <div class="timeline-date">
+        <p><time datetime="2023">2023</time><span aria-hidden="true"> — </span><span>Present</span></p>
+        <span class="timeline-status">In progress</span>
+      </div>
+      <div class="timeline-content">
+        <h3>BS in Computer Science</h3>
+        <p class="timeline-institution">NEMSU Lianga Campus <span aria-hidden="true">·</span> Lianga, Surigao del Sur</p>
+        <p class="timeline-level">Third year</p>
+        <p><strong>Relevant coursework:</strong> Web Systems, Database Systems, Data Structures, and Programming Fundamentals.</p>
+      </div>
+    </li>
+  </ol>
+</div>
+</section>
+    <section id="contact" tabindex="-1" aria-labelledby="contact-heading"><div class="container contact-grid">
+  <div class="contact-form-card">
+    <span class="eyebrow">04 — contact</span>
+    <h2 id="contact-heading">Contact</h2>
+    <p>Have an internship, collaboration, or question? Send a message using the form below.</p>
+    <form id="contact-form" action="https://formsubmit.co/jewardmahinay38@gmail.com" method="POST" novalidate>
+      <input type="hidden" name="_subject" value="New portfolio message">
+      <input type="hidden" name="_template" value="table">
+      <input class="form-honey" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <div><label for="name">Full name</label><input id="name" name="name" type="text" autocomplete="name" placeholder="e.g., Alex Morgan" required aria-describedby="name-error"><p class="error" id="name-error" aria-live="polite" aria-atomic="true" hidden></p></div>
+      <div><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" placeholder="name@example.com" required aria-describedby="email-error"><p class="error" id="email-error" aria-live="polite" aria-atomic="true" hidden></p></div>
+      <div><label for="message">Message</label><textarea id="message" name="message" rows="5" minlength="10" placeholder="Share a few details about your inquiry." required aria-describedby="message-error"></textarea><p class="error" id="message-error" aria-live="polite" aria-atomic="true" hidden></p></div>
+      <noscript><p>Enable JavaScript to submit this form, or <a href="mailto:jewardmahinay38@gmail.com">email me directly</a>.</p></noscript>
+      <button class="btn btn-primary" type="submit" disabled><i class="fa-solid fa-paper-plane" aria-hidden="true"></i>Send Message</button>
+      <p id="form-status" role="status" aria-live="polite" aria-atomic="true"></p>
+    </form>
+  </div>
+  <div class="contact-details-card">
+    <span class="eyebrow">Get in touch</span>
+    <p class="contact-details-intro">For internship inquiries, professional networking, or other questions, reach me through any of these channels.</p>
+    <dl class="contact-list">
+      <div class="contact-item"><dt><i class="fa-solid fa-envelope" aria-hidden="true"></i>Email</dt><dd><a href="mailto:jewardmahinay38@gmail.com">jewardmahinay38@gmail.com</a></dd></div>
+      <div class="contact-item"><dt><i class="fa-solid fa-location-dot" aria-hidden="true"></i>Location</dt><dd>Lianga, Surigao del Sur, Philippines</dd></div>
+      <div class="contact-item"><dt><i class="fa-brands fa-github" aria-hidden="true"></i>GitHub</dt><dd><a href="https://github.com/Wardikhead" target="_blank" rel="noopener">github.com/Wardikhead</a></dd></div>
+      <div class="contact-item"><dt><i class="fa-brands fa-facebook-f" aria-hidden="true"></i>Facebook</dt><dd><a href="https://web.facebook.com/jeward.mahinay.9" target="_blank" rel="noopener">facebook.com/jeward.mahinay.9</a></dd></div>
+    </dl>
+  </div>
+</div></section>
+  </main>
+  <footer class="site-footer"><div class="container"><p>© <span id="year">2026</span> Jeward Mahinay. Built with HTML, CSS, and JavaScript with accessibility in mind.</p><nav aria-label="Social"><a href="https://github.com/Wardikhead" target="_blank" rel="noopener" aria-label="Jeward Mahinay on GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i>GitHub</a> | <a href="https://web.facebook.com/jeward.mahinay.9" target="_blank" rel="noopener" aria-label="Jeward Mahinay on Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i>Facebook</a> | <a href="mailto:jewardmahinay38@gmail.com" aria-label="Email Jeward Mahinay"><i class="fa-solid fa-envelope" aria-hidden="true"></i>Email</a></nav></div></footer>
+  <button id="back-to-top" type="button" hidden aria-label="Back to top"><i class="fa-solid fa-arrow-up" aria-hidden="true"></i></button>
+  <script src="script.js" defer></script>
+</body>
+</html>
